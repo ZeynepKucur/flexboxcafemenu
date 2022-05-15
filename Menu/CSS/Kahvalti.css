@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url("/Menu/Images/ulucami.jpeg"); */
+    background-position-x: center;
+}
+main{
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 2px solid transparent; */
+    width:100%;
+    opacity: 0.95;
+}
+.logo{
+    margin-top: 1%;
+    height: 114px;
+    width: 102px;
+    background-image: url("/Menu/Images/logo.png");
+    margin-left: auto;
+    margin-right:auto ;
+    background-repeat: no-repeat; 
+}
+.anasayfa_butonu{
+    width: 90%;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: peachpuff;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgba(255, 228, 164, 0.5);       
+    font-weight: 500;
+    max-width: 1000px;
+
+}
+.anasayfa_butonu a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+.anasayfa_butonu:hover{
+    background-color: rgba(238, 155, 87, 0.51);       
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    /* border: 5px solid rebeccapurple;
+    background-color: rgba(255, 255, 255, 0.538);        */
+    text-align: center;
+    max-width: 1000px;
+}
+.column{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* border: 2px solid black; */
+    text-align: center;
+}
+
+.product_image{
+    padding-top: 5px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto ;
+}
+.product_name{
+    font-size: 22px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.product_description{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+.product_price{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 5px;
+}
